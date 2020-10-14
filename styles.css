@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -17,6 +16,7 @@ header {
     padding: 20px;
 }
 
+/* leadboard link */
 
 header div#leaderboards {
     color: black;
@@ -29,6 +29,7 @@ header div#leaderboards:hover {
     cursor: pointer;
 }
 
+/* timer */
 
 header #time {
     font-weight: bold;
@@ -50,6 +51,7 @@ main .container h1 {
     text-align: center;
 }
 
+/* start screen */
 
 main .container .start {
     display: block;
@@ -80,6 +82,7 @@ main div.start-btn button:hover {
 }
 
 /* questions */
+
 main .container .questions {
     display: none;
 }
@@ -105,6 +108,8 @@ main .container .questions .buttons button:hover {
 }
 
 
+/* flash right or wrong */
+
 main .container .questions #right-wrong {
     display: none;
     transition: 0.3s;
@@ -126,6 +131,7 @@ main .container .questions .wrong {
     font-style: italic;
 }
 
+/* end */
 
 main .container .end {
     display: none;
@@ -162,6 +168,8 @@ main .container .end button {
 main .container .end button:hover {
     background-color: #1ed1f0;
 }
+
+/* leaderboard screen */
 
 main .container .leaderboards-list {
     display: none;
