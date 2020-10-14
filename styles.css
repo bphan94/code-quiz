@@ -6,12 +6,12 @@
 }
 
 body {
-    font-family: 
+    font-family: 'Montserrat', sans-serif;
 }
 
-
+/* Header- timer and leaderboards */
 header {
-    background-color:
+    background-color: #1ed1f0;
     display: flex;
     justify-content: space-between;
     padding: 20px;
@@ -25,7 +25,7 @@ header div#leaderboards {
 }
 
 header div#leaderboards:hover {
-    color: gray;
+    color: rgb(67, 65, 65);
     cursor: pointer;
 }
 
@@ -35,16 +35,11 @@ header #time {
 }
 
 
+/* Main container */
 main .container {
     width: 500px;
     margin: 0 auto;
     
-}
-
-@media screen and (max-width: 768px) {
- main .container {
-     width: 300px;
- }
 }
 
 main .container h1 {
@@ -71,100 +66,100 @@ main div.start-btn {
 }
 
 main div.start-btn button {
-    background-color: 
+    background-color: #1ed1f0;
     font-size: 1.2rem;
     padding: 10px;
-    border: 2px color 
+    border: 2px #40d2eb;
     border-radius: 5px;
     transition: 0.3s;
 }
 
 main div.start-btn button:hover {
-    background-color: 
+    background-color: #1ed1f0;
 }
 
-
-main .container .question-div {
+/* questions */
+main .container .questions {
     display: none;
 }
 
-main .container .question-div .buttons {
+main .container .questions .buttons {
     margin-bottom: 10px;
 }
 
-main .container .question-div .buttons button {
+main .container .questions .buttons button {
     display: block;
-    font-family: 
+    font-family: 'Montserrat', sans-serif; 
     font-size: 1.4rem;
-    background-color: 
+    background-color: #1ed1f0;
     padding: 10px;
     margin: 5px;
-    border: 2px 
+    border: 2px #40d2eb;
     border-radius: 5px;
     transition: 0.3s;
 }
 
-main .container .question-div .buttons button:hover {
-    background-color: 
+main .container .questions .buttons button:hover {
+    background-color: #1ed1f0;
 }
 
 
-main .container .question-div #right-wrong {
+main .container .questions #correct-wrong {
     display: none;
     transition: 0.3s;
 }
 
-main .container .question-div .right {
+main .container .questions .right {
     padding: 10px;
     margin-top: 10px;
-    background-color:
+    background-color: rgb(77, 232, 77);
     font-weight: bold;
     font-style: italic;
 }
 
-main .container .question-div .wrong {
+main .container .questions .wrong {
     padding: 10px;
     margin-top: 10px;
-    background-color: 
+    background-color: #1ed1f0;
     font-weight: bold;
     font-style: italic;
 }
 
 
-main .container .end-div {
+main .container .end {
     display: none;
 }
 
-main .container .end-div h2 {
+main .container .end h2 {
     text-align: center;
     padding-bottom: 20px;
 }
 
-main .container .end-div form {
+main .container .end form {
     text-align: center;
 }
 
-main .container .end-div form input {
+main .container .end form input {
     font-size: 1.2rem;
 }
 
-main .container .end-div label {
+main .container .end label {
     display: block;
     font-size: 1.2rem;
     padding-bottom: 10px;
 }
 
-main .container .end-div button {
-    background-color: 
+main .container .end button {
+    background-color: #1ed1f0; 
     font-size: 1.2rem;
     padding: 2px 5px 2px 5px;
-    border: 2px 
+    border: 2px #40d2eb;
     border-radius: 5px;
     transition: 0.3s;
 }
 
-main .container .end-div button:hover {
-    background-color:
+main .container .end button:hover {
+    background-color: #1ed1f0;
 }
 
 main .container .leaderboard-list {
@@ -178,11 +173,11 @@ main .container .leaderboard-list ol li {
 }
 
 main .container .leaderboard-list ol li:nth-child(odd) {
-    background-color:  
+    background-color: #1ed1f0;
 }
 
 main .container .leaderboard-list ol li:nth-child(even) {
-    background-color:  
+    background-color: #1ed1f0;
 }
 
 main .container .leaderboard-list div#leaderboard-btns {
@@ -190,14 +185,14 @@ main .container .leaderboard-list div#leaderboard-btns {
 }
 
 main .container .leaderboard-list div#leaderboard-btns button {
-    background-color: 
+    background-color: #1ed1f0;
     font-size: 1.2rem;
     padding: 2px 5px 2px 5px;
-    border: 2px 
+    border: 2px #40d2eb;
     border-radius: 5px;
     transition: 0.3s;
 }
 
 main .container .leaderboard-list div#leaderboard-btns button:hover {
-    background-color: 
+    background-color: #1ed1f0;
 }
