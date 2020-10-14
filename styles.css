@@ -17,7 +17,6 @@ header {
     padding: 20px;
 }
 
-/* Hall of fame link */
 
 header div#leaderboards {
     color: black;
@@ -30,13 +29,11 @@ header div#leaderboards:hover {
     cursor: pointer;
 }
 
-/* Timer */
 
 header #time {
     font-weight: bold;
 }
 
-/* Main container to display start, question, end of quiz, and hall of fame divs */
 
 main .container {
     width: 500px;
