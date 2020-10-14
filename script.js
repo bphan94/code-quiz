@@ -58,14 +58,12 @@ var questionBank = [
 
 
 // Quiz Variables
-
 var questionIdx = 0;  // track of current question
 var secondsLeft = 60; // tracks time
 var timerInterval; // timer interval
 var flashTimeout; // timeout for wrong answers
 
 // Functions to hide elements
-
 function hide(element) {
     element.setAttribute("style", "display: none;");
 }
@@ -76,7 +74,6 @@ function show(element) {
 
 
 // Quiz Functions
-
 // loading questions into html
 function displayQuestion() {
     var currQuestion = questionBank[questionIdx]; // loads the current question from question bank
@@ -87,7 +84,6 @@ function displayQuestion() {
         answerButtons.children[i].textContent = possibleAnswers[i];
     }
 }
-
 
 // Ending of quiz. When time runs out this function runs
 function endQuiz() {
@@ -191,11 +187,9 @@ answerButtons.addEventListener("click", function () {
 })
 
 
-
 // leaderboards 
 
 // array to hold leaderboards
-
 var scores = [];
 
 // function to sort score
@@ -243,7 +237,6 @@ function loadScores() {
 loadScores();
 
 // Click listeners on leaderboards buttons
-
 // Clear the leaderboards 
 clearLeader.addEventListener("click", function () {
     localStorage.clear();
