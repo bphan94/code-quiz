@@ -1,0 +1,206 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 
+}
+
+
+header {
+    background-color:
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Hall of fame link */
+
+header div#leaderboards {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header div#leaderboards:hover {
+    color: gray;
+    cursor: pointer;
+}
+
+/* Timer */
+
+header #time {
+    font-weight: bold;
+}
+
+/* Main container to display start, question, end of quiz, and hall of fame divs */
+
+main .container {
+    width: 500px;
+    margin: 0 auto;
+    
+}
+
+@media screen and (max-width: 768px) {
+ main .container {
+     width: 300px;
+ }
+}
+
+main .container h1 {
+    font-size: 1.5rem;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+
+main .container .start-div {
+    display: block;
+}
+
+main .container .start-div p {
+    padding-bottom: 20px;
+    line-height: 1.5;
+    font-size: 1.2rem;
+}
+
+main div.start-btn {
+    display: flex;
+    justify-content: center;
+}
+
+main div.start-btn button {
+    background-color: 
+    font-size: 1.2rem;
+    padding: 10px;
+    border: 2px color 
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+main div.start-btn button:hover {
+    background-color: 
+}
+
+
+main .container .question-div {
+    display: none;
+}
+
+main .container .question-div .buttons {
+    margin-bottom: 10px;
+}
+
+main .container .question-div .buttons button {
+    display: block;
+    font-family: 
+    font-size: 1.4rem;
+    background-color: 
+    padding: 10px;
+    margin: 5px;
+    border: 2px 
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+main .container .question-div .buttons button:hover {
+    background-color: 
+}
+
+
+main .container .question-div #right-wrong {
+    display: none;
+    transition: 0.3s;
+}
+
+main .container .question-div .right {
+    padding: 10px;
+    margin-top: 10px;
+    background-color:
+    font-weight: bold;
+    font-style: italic;
+}
+
+main .container .question-div .wrong {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: 
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+main .container .end-div {
+    display: none;
+}
+
+main .container .end-div h2 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+main .container .end-div form {
+    text-align: center;
+}
+
+main .container .end-div form input {
+    font-size: 1.2rem;
+}
+
+main .container .end-div label {
+    display: block;
+    font-size: 1.2rem;
+    padding-bottom: 10px;
+}
+
+main .container .end-div button {
+    background-color: 
+    font-size: 1.2rem;
+    padding: 2px 5px 2px 5px;
+    border: 2px 
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+main .container .end-div button:hover {
+    background-color:
+}
+
+main .container .leaderboard-list {
+    display: none;
+}
+
+main .container .leaderboard-list ol li {
+    padding: 10px 10px 10px 20px;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+main .container .leaderboard-list ol li:nth-child(odd) {
+    background-color:  
+}
+
+main .container .leaderboard-list ol li:nth-child(even) {
+    background-color:  
+}
+
+main .container .leaderboard-list div#leaderboard-btns {
+    margin-top: 20px;
+}
+
+main .container .leaderboard-list div#leaderboard-btns button {
+    background-color: 
+    font-size: 1.2rem;
+    padding: 2px 5px 2px 5px;
+    border: 2px 
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+main .container .leaderboard-list div#leaderboard-btns button:hover {
+    background-color: 
+}
