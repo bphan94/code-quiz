@@ -4,44 +4,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Code Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Code Quiz!</title>
 </head>
 
-<body id="body">
+<body>
+
+    <!-- header with leaderboard and time -->
+    <header>
+        <div id="leaderboards">Leaderboards</div>
+        <div>Time Remaining: <span id="time">60</span></div>
+    </header>
+    <!-- End Header -->
 
 
-    <div class="card shadow-sm p-3 mb-5 bg-white rounded" style="max-width: 50%; margin: 40px auto;">
-        <div class="card-body">
-            <button type="button" class="btn btn-light" id="highScores" style="float:left;">High Scores</button>
-            <div class="empty">
-                <button id="timer" style="float:right;">Time Left: <span id="seconds-left"></span></button>
-            </div>
-            <br>
-            <div class="score">
-                <ul id="high-score"></ul>
-            </div>
-            <form class="show-onclick" id="form">
-            </form>
-            <div class="empty">
-                <h3 class="question text-center"></h3>
-                <br>
-                <div class="answers"></div>
-                <div class="text-center" id="startText">
-                    <h1 class="card-title">Code Quiz Challenge</h1>
-                    <br>
-                    <br>
-                    <!-- <p>(text)</p> -->
-                    <br>
-                    <br>
+    <main>
+        <!-- Begin Main Container -->
+        <section class="container">
 
-                    <button type="button" class="btn btn-secondary btn-lg" id="start">Start Code Quiz</button>
+            <!-- Start Screen -->
+            <div class="start-div">
+                <h1>Code Quiz by Benjamin Phan!</h1>
+                <p>
+                    This Code Quiz will test your knowledge on Javascript! Try and answer each question as quickly as
+                    possible so you don't run out of time! There's a catch, choosing the wrong answers will deduct
+                    10 seconds off the timer! Let's see if you can top the leaderboards!
+                </p>
+                <div class="start-btn">
+                    <button id="start">Start Quiz!</button>
                 </div>
             </div>
-        </div>
-    </div>
 
+        </section>
+        <!-- End Main container -->
+    </main>
 
+    <script src="script.js"></script>
 </body>
 
 </html>
