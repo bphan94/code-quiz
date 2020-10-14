@@ -42,6 +42,7 @@ main .container {
     
 }
 
+
 main .container h1 {
     font-size: 1.5rem;
     padding-top: 40px;
@@ -50,11 +51,11 @@ main .container h1 {
 }
 
 
-main .container .start-div {
+main .container .start {
     display: block;
 }
 
-main .container .start-div p {
+main .container .start p {
     padding-bottom: 20px;
     line-height: 1.5;
     font-size: 1.2rem;
@@ -104,7 +105,7 @@ main .container .questions .buttons button:hover {
 }
 
 
-main .container .questions #correct-wrong {
+main .container .questions #right-wrong {
     display: none;
     transition: 0.3s;
 }
@@ -162,29 +163,29 @@ main .container .end button:hover {
     background-color: #1ed1f0;
 }
 
-main .container .leaderboard-list {
+main .container .leaderboards-list {
     display: none;
 }
 
-main .container .leaderboard-list ol li {
+main .container .leaderboards-list ol li {
     padding: 10px 10px 10px 20px;
     font-weight: bold;
     font-size: 1.5rem;
 }
 
-main .container .leaderboard-list ol li:nth-child(odd) {
+main .container .leaderboards-list ol li:nth-child(odd) {
     background-color: #1ed1f0;
 }
 
-main .container .leaderboard-list ol li:nth-child(even) {
+main .container .leaderboards-list ol li:nth-child(even) {
     background-color: #1ed1f0;
 }
 
-main .container .leaderboard-list div#leaderboard-btns {
+main .container .leaderboards-list div#leaderboard-btns {
     margin-top: 20px;
 }
 
-main .container .leaderboard-list div#leaderboard-btns button {
+main .container .leaderboards-list div#leaderboard-btns button {
     background-color: #1ed1f0;
     font-size: 1.2rem;
     padding: 2px 5px 2px 5px;
@@ -193,6 +194,6 @@ main .container .leaderboard-list div#leaderboard-btns button {
     transition: 0.3s;
 }
 
-main .container .leaderboard-list div#leaderboard-btns button:hover {
+main .container .leaderboards-list div#leaderboard-btns button:hover {
     background-color: #1ed1f0;
 }
